@@ -7,8 +7,49 @@
 </head>
 
 <body>
-    <h2>Caracteristicas de al</h2>
-    <table id=Proceadores>
+    <h1>El Procesador</h1>
+    <p>
+        Las CPU y los microprocesadores son la base de un sistema operativo exitoso. Ambos ejecutan tareas integrales de
+        la computadora, como operaciones aritméticas, de procesamiento de datos, lógicas y de E/S, pero las diferencias
+        entre CPU y microprocesador no son tan blancas y negras. Aunque algunos administradores de TI usan CPU y
+        microprocesadores de manera intercambiable, la realidad es que la mayoría de las CPU son microprocesadores, pero
+        no todos los microprocesadores son CPU.
+    </p>
+    <p>
+        En los primeros días de TI, las CPU eran el caballo de batalla principal del sistema, ya que manejaban una
+        variedad de comandos de computadora que a menudo eran complejos y llevaban mucho tiempo. Sin embargo, los
+        microprocesadores se convirtieron en la respuesta a muchas de las tareas complejas que las CPU simplemente no
+        podían manejar día a día, como la representación de imágenes y la creación de redes. Tanto las CPU como los
+        microprocesadores aún ejecutan muchas de las mismas tareas en las TI modernas, pero sus funciones difieren
+        ligeramente.
+    </p>
+    <h2>¿Qué es una CPU?</h2>
+    <p>
+        Un procesador, o CPU, es un circuito lógico que responde y procesa instrucciones básicas para conducir una
+        computadora. Una CPU es integral para las operaciones del sistema porque es responsable de interpretar la
+        mayoría de los comandos de una computadora, como los procesos básicos de aritmética, lógica y E/S. Una CP
+    </p>
+    <p>
+        Varios elementos dentro de la CPU le permiten ejecutar estos comandos de computadora, como la unidad de lógica
+        aritmética, la unidad de punto flotante, los registros y la memoria caché L1 y L2. Con la ayuda de estos
+        componentes, una CPU puede cumplir funciones tales como buscar, decodificar y ejecutar. En esta función de tres
+        partes, el paso de búsqueda recibe instrucciones de memoria del programa de la RAM de un sistema, el paso de
+        decodificación convierte las instrucciones para comprender qué partes de la CPU son necesarias para continuar
+        las operaciones y el paso de ejecución realiza la operación.
+    </p>
+    <p>
+        La mayoría de las CPU en las TI modernas son procesadores multinúcleo, lo que significa que el circuito
+        integrado
+        tiene dos o más procesadores conectados para ayudar a mejorar el rendimiento, reducir el consumo de energía y
+        admitir el procesamiento simultáneo de varias tareas de la computadora. En términos generales, una CPU
+        multinúcleo es dos veces más potente que una CPU de un solo núcleo.
+    </p>
+
+    <h2>Caracteristicas del procesador</h2>
+    <h3>Caracteristicas y diferencia de unos procesadores </h3>
+    <li>Intel Core i9-12900F</li>
+    <li>AMD Ryzen 9 5950X</li>
+    <table id="Procesadores">
         <tr>
             <th>Procesador</th>
             <th>Generacion</th>
@@ -64,6 +105,85 @@
             <td>128GB</td>
         </tr>
     </table>
+    <h3>la diferencia entre el procesador del servidor y un PC</h3>
+    <h4>Más núcleos en una CPU para servidor</h4>
+    <p>
+        En realidad el motivo por el cual una CPU para servidores tiene más núcleos, al igual que más caché, tiene que
+        ver con la economía. Una empresa que monte un servidor tiene capital suficiente para rentabilizar la compra de
+        un procesador de gran tamaño, con una gran cantidad de núcleos y una gran cantidad de memoria caché en el
+        interior.
+    </p>
+    <h4>Múltiples CPU en servidores</h4>
+    <p>
+        En el mercado de los servidores es normal ver varias CPUs montadas en una placa base, cada una con su socket. En
+        PC hemos visto CPUs con chiplets, pero no es lo mismo, ya que estas continúan utilizando un solo socket y no es
+        del mismo tamaño que los socket para servidores.
+    </p>
+
+    <h4>Una CPU para servidor esta siempre en funcionamiento</h4>
+    <p>
+        La CPU de un servidor va a estar encendida durante 24 horas al día, 7 días a la semana y 365 días al año. Es
+        decir, desde que se instalan hasta que dejan de funcionar van a estar en funcionamiento todo el rato. Lo que se
+        traduce es que a la hora de hacer los test de calidad a una CPU para servidores estos son mucho más exigentes y
+        la cantidad de procesadores que superan el corte es mucho más baja. Es por ello que son tan caros y tas escasos.
+    </p>
+
+    <h4>Diferencia entre dos modelos</h4>
+
+    <li>AMD EPYC 776 (para servidor)</li>
+    <li>AMD Ryzen 9 5950X (de desktop)</li>
+
+    <table id="Procesadores">
+        <tr>
+            <th>Procesador</th>
+            <th>Tipo</th>
+            <th>Número de núcleos</th>
+            <th>Número de hilos</th>
+            <th>Frecuencia base</th>
+            <th>Frecuencia máxima</th>
+            <th>Caché de nivel 1</th>
+            <th>Caché de nivel 2</th>
+            <th>Caché de nivel 3</th>
+            <th>Nivel de integración</th>
+            <th>Consumo</th>
+            <th>Tipo de memoria RAM</th>
+            <th>capacidad de memoria permetida</th>
+        </tr>
+        <tr>
+            <td>AMD EPYC 776 </td>
+            <td>para servidor</td>
+            <td>64</td>
+            <td>128</td>
+            <td>2.45 GHz</td>
+            <td>3.5 GHz</td>
+            <td>96K (por núcleo)</td>
+            <td>512K (por núcleo)</td>
+            <td>256 MB</td>
+            <td>7 nm +</td>
+            <td>280 Watt</td>
+            <td>DDR4-3200</td>
+            <td>4 TiB</td>
+        </tr>
+
+        <tr>
+            <td>AMD Ryzen 9 5950X</td>
+            <td>de desktop</td>
+            <td>16</td>
+            <td>32</td>
+            <td>3.4 GHz</td>
+            <td>4.9 GHz</td>
+            <td>64K (por núcleo)</td>
+            <td>512K (por núcleo)</td>
+            <td>64 MB</td>
+            <td>7 nm</td>
+            <td>105 Watt</td>
+            <td>DDR4-3200</td>
+            <td>128GB</td>
+        </tr>
+    </table>
+
+
+
 </body>
 
 </html>
